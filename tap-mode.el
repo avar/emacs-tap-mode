@@ -33,7 +33,7 @@
 ;;;
 ;;;    (setq auto-mode-alist
 ;;;       (append auto-mode-alist
-;;;         '(("tap" . tap-mode))))
+;;;         '(("\\.tap$" . tap-mode))))
 ;;;
 ;;;
 ;;; To automatically turn on font-lock-mode add the following to your ~/.emacs
